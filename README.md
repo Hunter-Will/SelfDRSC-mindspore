@@ -19,15 +19,15 @@ Please download the RS-GOPRO datasets from [link](https://drive.google.com/u/0/u
 
 
 ## Download Pre-trained Model of SelfDRSC
-Please download the pre-trained pwcnet from [link](https://pan.baidu.com/s/1_Cu-8MInef6U9Mh7ypxOkw?pwd=zwfg)(password:zwfg). Please put these models to `./pretrained`.
+Please download the pre-trained pwcnet from [link](https://pan.baidu.com/s/1_Cu-8MInef6U9Mh7ypxOkw?pwd=zwfg)(password: zwfg). Please put these models to `./pretrained`.
 
-Please download the stage two checkpoint from [Stage two](https://pan.baidu.com/s/1-F8weUSY76_gboGotWpmmg?pwd=f4dl)(password:f4dl). Please put these models to `./experiments`.
+Please download the stage two checkpoint from [Stage two](https://pan.baidu.com/s/1-F8weUSY76_gboGotWpmmg?pwd=f4dl)(password: f4dl). Please put these models to `./experiments`.
 
 ## Getting Started
 ### 1) Testing
 1.Testing on RS-GOPRO dataset:
 ```
-python main_test_srsc_rsflow_multi_distillv2.py --opt options/test_srsc_rsflow_multi_distillv2_psnr.json  --dist True
+python main_test_srsc_rsflow_multi_distillv2.py --opt options/test_srsc_rsflow_multi_distillv2_psnr.json
 ```
 or use script `run_test.sh`
 
